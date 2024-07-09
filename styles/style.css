@@ -1,3 +1,94 @@
-
+/* font styles */
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* shared styles */
+body{
+    color: rgb(13, 19, 33);
+}
+.btn{
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+/* header styles */
+.banner-container{
+    height: 652px;
+    background: url(../assets/Hero-bg.png);
+    margin: 0 auto;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    text-align: center;
+    margin: 26px 221px 44px 221px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+/* reason section styles */
+.reason-section{
+    height: 1395px;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.05);
+}
+.head-reason-section{
+    text-align: center;
+    height: 10%;
+    margin-top: 80px;
+}
+.head-reason-section h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.head-reason-section p{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.main-content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 97px;
+    margin-bottom: 97px;
+}
+.top-section{
+    display: flex;
+}
 
 
