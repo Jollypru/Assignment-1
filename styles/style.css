@@ -25,6 +25,15 @@ body{
     color: white;
     cursor: pointer;
 }
+.btn a:link{
+    color: white;
+}
+.btn a:visited{
+    color: white;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
 .btn-2{
     padding: 12px 20px;
     font-weight: 600;
@@ -34,6 +43,10 @@ body{
     background: rgb(255, 255, 255);
     cursor: pointer;
 }
+.btn-2 a:link, .btn-2 a:visited{
+    color: #0D1321;
+}
+
 .content-title{
     font-size: 24px;
     font-weight: 700;
@@ -184,6 +197,15 @@ main section{
     width: 364px;
     padding: 40px;
 }
+.tools .content h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.tools .content p{
+    opacity: 0.7;
+}
 .html{
     background: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
@@ -203,6 +225,10 @@ main section{
     border: none;
     cursor: pointer;
     margin-top: 24px;
+    background: none;
+}
+.btn-3 a:link, .btn-3 a:visited{
+    color: #0D1321;
 }
 /* feedback section styles */
 .feedback{
