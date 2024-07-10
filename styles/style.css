@@ -253,6 +253,8 @@ main section{
     font-size: 16px;
     color: white;
     opacity: 0.7;
+    width: 800px;
+    margin: 16px auto;
 }
 .form{
     display: flex;
